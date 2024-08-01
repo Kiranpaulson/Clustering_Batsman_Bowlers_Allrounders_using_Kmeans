@@ -1,1 +1,1 @@
-images/graph.jpeg
+![Repository Banner](images/graph.jpeg)
