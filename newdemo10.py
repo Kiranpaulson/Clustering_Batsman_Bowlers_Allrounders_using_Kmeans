@@ -59,7 +59,7 @@ def k_means_clustering(data, k, max_iterations=100):
     # Use the first k elements as the initial centroids
     centroids = [[30.65, 12.00, 137.97, 29.66], [3.95, 8.32, 51.36, 30.84], [10.97, 8.22, 100.73, 29.94]]
 
-#completely changed trail and errorrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+#completely changed trail and error
     print(centroids)
     for _ in range(max_iterations):
         # Assign each data point to the closest centroid
@@ -156,7 +156,7 @@ for i in range(k):
 # Create a dictionary to store players and their corresponding cluster labels
 player_clusters = {player_names[i]: labels[i] for i in range(len(player_names))}
 
-# ... (previous code remains unchanged)
+
 
 # Create dictionaries to store performance metrics for each cluster
 batsman_performance = {}
